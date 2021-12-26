@@ -1,9 +1,6 @@
-<input type="text" [(ngModel)]="title">
-{{ title }}
+<input type="text" [(ngModel)]="title">{{ title }}
 
-<div *ngIf="title !== 'victoria'">
-  Este es un div
-</div>
+<div *ngIf="title !== 'victoria'"></div>
 
 <button (click)="addItem()">Add item</button>
 
